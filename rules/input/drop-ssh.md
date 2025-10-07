@@ -9,5 +9,5 @@ Explanation:
 
 -A INPUT - adds a rule to the end of the chain \
 -p tcp - the rule applies to TCP packets \
---dport - reject SSH connection \
+--dport - drop SSH connection \
 -j DROP - the client won't get an error message
