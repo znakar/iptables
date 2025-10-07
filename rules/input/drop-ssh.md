@@ -1,4 +1,4 @@
-## DROP SSH connection
+## Drop SSH connection
 
 **Command**:
 
