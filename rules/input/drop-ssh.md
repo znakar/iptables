@@ -4,7 +4,7 @@
 
 ```bash
 iptables -A INPUT -p tcp --dport 22 -j DROP
-
+```
 Explanation:
 
 -A INPUT - adds a rule to the end of the chain
