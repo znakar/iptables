@@ -7,7 +7,7 @@ iptables -A INPUT -p tcp --dport 22 -j DROP
 ```
 Explanation:
 
--A INPUT - adds a rule to the end of the chain
--p tcp - the rule applies to TCP packets
---dport - reject SSH connection
+-A INPUT - adds a rule to the end of the chain \
+-p tcp - the rule applies to TCP packets \
+--dport - reject SSH connection \
 -j DROP - the client won't get an error message
