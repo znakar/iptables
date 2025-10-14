@@ -2,12 +2,12 @@
 
 ```bash
 iptables -A INPUT -p tcp --syn -m limit --limit 10/s --limit-burst 20 -j ACCEPT
-```
 
--A INPUT - adds a rule to the end of the chain \
--p - uses tcp protocol \
+
+-A INPUT - adds a rule to the end of the chain 
+-p - uses tcp protocol 
 --syn - shorted version of --tcp-flags SYN,ACK,FIN,RST SYN 
-
+```
 
 m - indication of the use of an additional module \
 limit - The module is used to limit the frequency of matching \
